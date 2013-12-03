@@ -10,7 +10,7 @@ class Site
     private $ownerGroup = 'www-data';
     private $userName = '';
     private $userNamePrefix = 'www-';
-    private $dirsMode = 0760;
+    private $dirsMode = 0770;
 
     private function executeCommand($command)
     {
