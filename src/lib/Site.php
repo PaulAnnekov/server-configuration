@@ -94,7 +94,7 @@ class Site
             $config
         );
 
-        $configName = $this->phpFpmConfigRoot . '/pool.d/' . $domain;
+        $configName = $this->phpFpmConfigRoot . '/pool.d/' . $domain . '.conf';
         file_put_contents($configName, $outConfig);
     }
 
